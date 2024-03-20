@@ -49,59 +49,59 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="bai1.cs">
+    <Compile Include="Lab1_bai01.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="bai1.Designer.cs">
-      <DependentUpon>bai1.cs</DependentUpon>
+    <Compile Include="Lab1_bai01.Designer.cs">
+      <DependentUpon>Lab1_bai01.cs</DependentUpon>
     </Compile>
-    <Compile Include="bai2.cs">
+    <Compile Include="Lab1_bai02.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="bai2.Designer.cs">
-      <DependentUpon>bai2.cs</DependentUpon>
+    <Compile Include="Lab1_bai02.Designer.cs">
+      <DependentUpon>Lab1_bai02.cs</DependentUpon>
     </Compile>
-    <Compile Include="bai3.cs">
+    <Compile Include="Lab1_bai03.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="bai3.Designer.cs">
-      <DependentUpon>bai3.cs</DependentUpon>
+    <Compile Include="Lab1_bai03.Designer.cs">
+      <DependentUpon>Lab1_bai03.cs</DependentUpon>
     </Compile>
-    <Compile Include="bai4.cs">
+    <Compile Include="Lab1_bai04.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="bai4.Designer.cs">
-      <DependentUpon>bai4.cs</DependentUpon>
+    <Compile Include="Lab1_bai04.Designer.cs">
+      <DependentUpon>Lab1_bai04.cs</DependentUpon>
     </Compile>
-    <Compile Include="bai5.cs">
+    <Compile Include="Lab1_bai05.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="bai5.Designer.cs">
-      <DependentUpon>bai5.cs</DependentUpon>
+    <Compile Include="Lab1_bai05.Designer.cs">
+      <DependentUpon>Lab1_bai05.cs</DependentUpon>
     </Compile>
-    <Compile Include="bai6.cs">
+    <Compile Include="Lab1_bai06.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="bai6.Designer.cs">
-      <DependentUpon>bai6.cs</DependentUpon>
+    <Compile Include="Lab1_bai06.Designer.cs">
+      <DependentUpon>Lab1_bai06.cs</DependentUpon>
     </Compile>
-    <Compile Include="bai7.cs">
+    <Compile Include="Lab1_bai07.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="bai7.Designer.cs">
-      <DependentUpon>bai7.cs</DependentUpon>
+    <Compile Include="Lab1_bai07.Designer.cs">
+      <DependentUpon>Lab1_bai07.cs</DependentUpon>
     </Compile>
-    <Compile Include="bai8.cs">
+    <Compile Include="Lab1_bai08.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="bai8.Designer.cs">
-      <DependentUpon>bai8.cs</DependentUpon>
+    <Compile Include="Lab1_bai08.Designer.cs">
+      <DependentUpon>Lab1_bai08.cs</DependentUpon>
     </Compile>
-    <Compile Include="bai9.cs">
+    <Compile Include="Lab1_bai09.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="bai9.Designer.cs">
-      <DependentUpon>bai9.cs</DependentUpon>
+    <Compile Include="Lab1_bai09.Designer.cs">
+      <DependentUpon>Lab1_bai09.cs</DependentUpon>
     </Compile>
     <Compile Include="Lab1.cs">
       <SubType>Form</SubType>
@@ -111,32 +111,32 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="bai1.resx">
-      <DependentUpon>bai1.cs</DependentUpon>
+    <EmbeddedResource Include="Lab1_bai01.resx">
+      <DependentUpon>Lab1_bai01.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="bai2.resx">
-      <DependentUpon>bai2.cs</DependentUpon>
+    <EmbeddedResource Include="Lab1_bai02.resx">
+      <DependentUpon>Lab1_bai02.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="bai3.resx">
-      <DependentUpon>bai3.cs</DependentUpon>
+    <EmbeddedResource Include="Lab1_bai03.resx">
+      <DependentUpon>Lab1_bai03.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="bai4.resx">
-      <DependentUpon>bai4.cs</DependentUpon>
+    <EmbeddedResource Include="Lab1_bai04.resx">
+      <DependentUpon>Lab1_bai04.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="bai5.resx">
-      <DependentUpon>bai5.cs</DependentUpon>
+    <EmbeddedResource Include="Lab1_bai05.resx">
+      <DependentUpon>Lab1_bai05.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="bai6.resx">
-      <DependentUpon>bai6.cs</DependentUpon>
+    <EmbeddedResource Include="Lab1_bai06.resx">
+      <DependentUpon>Lab1_bai06.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="bai7.resx">
-      <DependentUpon>bai7.cs</DependentUpon>
+    <EmbeddedResource Include="Lab1_bai07.resx">
+      <DependentUpon>Lab1_bai07.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="bai8.resx">
-      <DependentUpon>bai8.cs</DependentUpon>
+    <EmbeddedResource Include="Lab1_bai08.resx">
+      <DependentUpon>Lab1_bai08.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="bai9.resx">
-      <DependentUpon>bai9.cs</DependentUpon>
+    <EmbeddedResource Include="Lab1_bai09.resx">
+      <DependentUpon>Lab1_bai09.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Lab1.resx">
       <DependentUpon>Lab1.cs</DependentUpon>

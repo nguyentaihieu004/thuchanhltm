@@ -11,9 +11,9 @@ using System.Windows.Forms;
 
 namespace baitap
 {
-    public partial class bai7 : Form
+    public partial class Lab1_bai07 : Form
     {
-        public bai7()
+        public Lab1_bai07()
         {
             InitializeComponent();
             dsphim.Add("Đào, phở và piano", 45000);

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace baitap
 {
-    public partial class bai2 : Form
+    public partial class Lab1_bai02 : Form
     {
-        public bai2()
+        public Lab1_bai02()
         {
             InitializeComponent();
         }
@@ -29,19 +29,22 @@ namespace baitap
 
         private void Tim_Click(object sender, EventArgs e)
         {
-            Console.WriteLine(textBox1.Text);
-            Console.WriteLine(textBox2.Text);
-            Console.WriteLine(textBox3.Text);
+      
             double so_lonnhat;
             double so_nhonhat;
-            so_lonnhat=Math.Max(double.Parse(textBox1.Text),Math.Max(double.Parse(textBox2.Text), double.Parse(textBox3.Text)));
-            so_nhonhat = Math.Min(double.Parse(textBox1.Text), Math.Min(double.Parse(textBox2.Text), double.Parse(textBox3.Text)));
-            textBox4.Text = so_lonnhat.ToString();
-            textBox5.Text = so_nhonhat.ToString();
             if (textBox1.Text == textBox2.Text && textBox1.Text == textBox3.Text)
             {
                 MessageBox.Show("Ba số bằng nhau");
             }
+            else
+            {
+            so_lonnhat=Math.Max(double.Parse(textBox1.Text),Math.Max(double.Parse(textBox2.Text), double.Parse(textBox3.Text)));
+            so_nhonhat = Math.Min(double.Parse(textBox1.Text), Math.Min(double.Parse(textBox2.Text), double.Parse(textBox3.Text)));
+            textBox4.Text = so_lonnhat.ToString();
+            textBox5.Text = so_nhonhat.ToString();
+            }
+            
+            
 
         }
 

@@ -11,9 +11,9 @@ using System.Windows.Forms;
 
 namespace baitap
 {
-    public partial class bai6 : Form
+    public partial class Lab1_bai06 : Form
     {
-        public bai6()
+        public Lab1_bai06()
         {
             InitializeComponent();
         }

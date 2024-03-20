@@ -1,6 +1,6 @@
 ﻿namespace baitap
 {
-    partial class bai2
+    partial class Lab1_bai02
     {
         /// <summary>
         /// Required designer variable.

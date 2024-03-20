@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace baitap
 {
-    public partial class bai8 : Form
+    public partial class Lab1_bai08 : Form
     {
-        public bai8()
+        public Lab1_bai08()
         {
             InitializeComponent();
         }

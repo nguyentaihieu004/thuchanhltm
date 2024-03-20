@@ -19,20 +19,20 @@ namespace baitap
             this.KeyPreview = true;
             this.KeyDown += Lab1_KeyDown;
         }
-        private bai1 bai1Instance;
-        private bai2 bai2Instance;
-        private bai3 bai3Instance;
-        private bai4 bai4Instance;
-        private bai5 bai5Instance;
-        private bai6 bai6Instance;
-        private bai7 bai7Instance;
-        private bai8 bai8Instance;
-        private bai9 bai9Instance;
+        private Lab1_bai01 bai1Instance;
+        private Lab1_bai02 bai2Instance;
+        private Lab1_bai03 bai3Instance;
+        private Lab1_bai04 bai4Instance;
+        private Lab1_bai05 bai5Instance;
+        private Lab1_bai06 bai6Instance;
+        private Lab1_bai07 bai7Instance;
+        private Lab1_bai08 bai8Instance;
+        private Lab1_bai09 bai9Instance;
         private void bai1_Click(object sender, EventArgs e)
         {
             if(bai1Instance == null || bai1Instance.IsDisposed)
             {
-                bai1Instance = new bai1();
+                bai1Instance = new Lab1_bai01();
                 bai1Instance.Show();
             }
             else
@@ -46,7 +46,7 @@ namespace baitap
         {
             if (bai2Instance==null || bai2Instance.IsDisposed)
             {
-                bai2Instance = new bai2();
+                bai2Instance = new Lab1_bai02();
                 bai2Instance.Show();
             }
             else
@@ -59,7 +59,7 @@ namespace baitap
         {
             if (bai3Instance == null || bai3Instance.IsDisposed)
             {
-                bai3Instance = new bai3();
+                bai3Instance = new Lab1_bai03();
                 bai3Instance.Show();
             }
             else
@@ -68,22 +68,22 @@ namespace baitap
             }
         }
          private void Bai4_Click(object sender, EventArgs e)
-                {
-                    if (bai4Instance == null || bai4Instance.IsDisposed)
-                    {
-                        bai4Instance = new bai4();
-                        bai4Instance.Show();
-                    }
-                    else
-                    {
-                        bai4Instance.BringToFront();
-                    }
-                }
+        {
+            if (bai4Instance == null || bai4Instance.IsDisposed)
+            {
+                bai4Instance = new Lab1_bai04();
+                bai4Instance.Show();
+            }
+            else
+            {
+                bai4Instance.BringToFront();
+            }
+        }
         private void bai5_Click(object sender, EventArgs e)
         {
             if (bai5Instance == null || bai5Instance.IsDisposed)
             {
-                bai5Instance = new bai5();
+                bai5Instance = new Lab1_bai05();
                 bai5Instance.Show();
             }
             else
@@ -113,7 +113,7 @@ namespace baitap
         {
             if (bai6Instance == null || bai6Instance.IsDisposed)
             {
-                bai6Instance = new bai6();
+                bai6Instance = new Lab1_bai06();
                 bai6Instance.Show();
             }
             else
@@ -126,7 +126,7 @@ namespace baitap
         {
             if (bai7Instance == null || bai7Instance.IsDisposed)
             {
-                bai7Instance = new bai7();
+                bai7Instance = new Lab1_bai07();
                 bai7Instance.Show();
             }
             else
@@ -139,7 +139,7 @@ namespace baitap
         {
             if (bai8Instance == null || bai8Instance.IsDisposed)
             {
-                bai8Instance = new bai8();
+                bai8Instance = new Lab1_bai08();
                 bai8Instance.Show();
             }
             else
@@ -152,7 +152,7 @@ namespace baitap
         {
             if (bai9Instance == null || bai9Instance.IsDisposed)
             {
-                bai9Instance = new bai9();
+                bai9Instance = new Lab1_bai09();
                 bai9Instance.Show();
             }
             else

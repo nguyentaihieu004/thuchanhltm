@@ -11,11 +11,11 @@ using System.Windows.Forms;
 
 namespace baitap
 {
-    public partial class bai9 : Form
+    public partial class Lab1_bai09 : Form
     {
         ListBox dsmonan=new ListBox();
         
-        public bai9()
+        public Lab1_bai09()
         {
             InitializeComponent();
         }

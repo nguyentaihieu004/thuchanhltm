@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace baitap
 {
-    public partial class bai1 : Form
+    public partial class Lab1_bai01 : Form
     {
-        public bai1()
+        public Lab1_bai01()
         {
             InitializeComponent();
         }
@@ -41,9 +41,9 @@ namespace baitap
 
         private void txbsothuhai_TextChanged(object sender, EventArgs e)
         {
-            if (!string.IsNullOrEmpty(txbsthunhat.Text))
+            if (!string.IsNullOrEmpty(txbsothuhai.Text))
             {
-                if (!int.TryParse(txbsthunhat.Text, out int num2))
+                if (!int.TryParse(txbsothuhai.Text, out int num2))
                 {
                     MessageBox.Show("Vui lòng nhập số nguyên!");
                 }
