@@ -139,6 +139,7 @@
             this.btxoa.TabIndex = 9;
             this.btxoa.Text = "Xóa";
             this.btxoa.UseVisualStyleBackColor = true;
+            this.btxoa.Click += new System.EventHandler(this.btxoa_Click);
             // 
             // bai7
             // 

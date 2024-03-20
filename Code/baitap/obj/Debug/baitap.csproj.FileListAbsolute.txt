@@ -29,3 +29,22 @@ D:\HK2_2024\laptrinhmangcanban\Nguyễn Tài Hiếu_22520442\baitap\obj\Debug\ba
 D:\HK2_2024\laptrinhmangcanban\Nguyễn Tài Hiếu_22520442\baitap\obj\Debug\baitap.bai9.resources
 D:\HK2_2024\laptrinhmangcanban\Nguyễn Tài Hiếu_22520442\baitap\obj\Debug\baitap.bai8.resources
 D:\HK2_2024\laptrinhmangcanban\Nguyễn Tài Hiếu_22520442\baitap\obj\Debug\baitap.bai7.resources
+D:\HK2_2024\laptrinhmangcanban\Thuchanh\Lab01_22520442\Code\baitap\bin\Debug\baitap.exe.config
+D:\HK2_2024\laptrinhmangcanban\Thuchanh\Lab01_22520442\Code\baitap\bin\Debug\baitap.exe
+D:\HK2_2024\laptrinhmangcanban\Thuchanh\Lab01_22520442\Code\baitap\bin\Debug\baitap.pdb
+D:\HK2_2024\laptrinhmangcanban\Thuchanh\Lab01_22520442\Code\baitap\obj\Debug\baitap.csproj.AssemblyReference.cache
+D:\HK2_2024\laptrinhmangcanban\Thuchanh\Lab01_22520442\Code\baitap\obj\Debug\baitap.bai1.resources
+D:\HK2_2024\laptrinhmangcanban\Thuchanh\Lab01_22520442\Code\baitap\obj\Debug\baitap.bai2.resources
+D:\HK2_2024\laptrinhmangcanban\Thuchanh\Lab01_22520442\Code\baitap\obj\Debug\baitap.bai3.resources
+D:\HK2_2024\laptrinhmangcanban\Thuchanh\Lab01_22520442\Code\baitap\obj\Debug\baitap.bai4.resources
+D:\HK2_2024\laptrinhmangcanban\Thuchanh\Lab01_22520442\Code\baitap\obj\Debug\baitap.bai5.resources
+D:\HK2_2024\laptrinhmangcanban\Thuchanh\Lab01_22520442\Code\baitap\obj\Debug\baitap.bai6.resources
+D:\HK2_2024\laptrinhmangcanban\Thuchanh\Lab01_22520442\Code\baitap\obj\Debug\baitap.bai7.resources
+D:\HK2_2024\laptrinhmangcanban\Thuchanh\Lab01_22520442\Code\baitap\obj\Debug\baitap.bai8.resources
+D:\HK2_2024\laptrinhmangcanban\Thuchanh\Lab01_22520442\Code\baitap\obj\Debug\baitap.bai9.resources
+D:\HK2_2024\laptrinhmangcanban\Thuchanh\Lab01_22520442\Code\baitap\obj\Debug\baitap.Lab1.resources
+D:\HK2_2024\laptrinhmangcanban\Thuchanh\Lab01_22520442\Code\baitap\obj\Debug\baitap.Properties.Resources.resources
+D:\HK2_2024\laptrinhmangcanban\Thuchanh\Lab01_22520442\Code\baitap\obj\Debug\baitap.csproj.GenerateResource.cache
+D:\HK2_2024\laptrinhmangcanban\Thuchanh\Lab01_22520442\Code\baitap\obj\Debug\baitap.csproj.CoreCompileInputs.cache
+D:\HK2_2024\laptrinhmangcanban\Thuchanh\Lab01_22520442\Code\baitap\obj\Debug\baitap.exe
+D:\HK2_2024\laptrinhmangcanban\Thuchanh\Lab01_22520442\Code\baitap\obj\Debug\baitap.pdb
