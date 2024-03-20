@@ -36,6 +36,8 @@
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
             this.btxoa = new System.Windows.Forms.Button();
+            this.cbphong = new System.Windows.Forms.ComboBox();
+            this.label4 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -102,6 +104,7 @@
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(179, 33);
             this.comboBox1.TabIndex = 6;
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // checkedListBox1
             // 
@@ -141,11 +144,34 @@
             this.btxoa.UseVisualStyleBackColor = true;
             this.btxoa.Click += new System.EventHandler(this.btxoa_Click);
             // 
+            // cbphong
+            // 
+            this.cbphong.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbphong.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbphong.FormattingEnabled = true;
+            this.cbphong.Location = new System.Drawing.Point(528, 117);
+            this.cbphong.Name = "cbphong";
+            this.cbphong.Size = new System.Drawing.Size(179, 33);
+            this.cbphong.TabIndex = 10;
+            this.cbphong.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(413, 121);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(95, 29);
+            this.label4.TabIndex = 11;
+            this.label4.Text = "Phòng:";
+            // 
             // bai7
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.cbphong);
             this.Controls.Add(this.btxoa);
             this.Controls.Add(this.checkedListBox1);
             this.Controls.Add(this.comboBox1);
@@ -171,5 +197,7 @@
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.CheckedListBox checkedListBox1;
         private System.Windows.Forms.Button btxoa;
+        private System.Windows.Forms.ComboBox cbphong;
+        private System.Windows.Forms.Label label4;
     }
 }

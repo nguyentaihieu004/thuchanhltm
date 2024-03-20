@@ -20,7 +20,7 @@ namespace baitap
             dsphim.Add("Mai", 100000);
             dsphim.Add("Gặp lại chị bầu", 75000);
             dsphim.Add("Tarot", 90000);
-
+            comboBox1.SelectedIndexChanged += comboBox1_SelectedIndexChanged;
         }
         Dictionary<string, int> dsphim= new Dictionary<string, int>();
        
@@ -34,9 +34,10 @@ namespace baitap
         {
             
             string phimdachon=comboBox1.Text;
+            
             items = checkedListBox1.CheckedItems;
             
-         
+            
             sogheedachon = LayPhanTuDaChon();
             
             if (KiemTraTrung() == true)
@@ -112,7 +113,7 @@ namespace baitap
 
                 }
                 string vitringoi = string.Join("\n", sogheedachon);
-                MessageBox.Show(string.Format("Khách hàng: {2}\nPhim: {0}\nVị trí ngồi:{3}\nGiá: {1}", phimdachon, giatienthucte, txbhoten.Text, vitringoi));
+                MessageBox.Show(string.Format("Khách hàng: {2}\nPhim: {0}\nPhòng: {4}\nVị trí ngồi:{3}\nGiá: {1}", phimdachon, giatienthucte, txbhoten.Text, vitringoi,cbphong.Text));
             }
             
         }
@@ -168,6 +169,37 @@ namespace baitap
                 soghedachon2 = sogheedachon;
             }
             sogheedachon = new string[0]; 
+        }
+
+        private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            cbphong.Items.Clear();
+            string phimdachon = comboBox1.Text;
+            if (phimdachon == "Đào, phở và piano")
+            {
+                cbphong.Items.Add("Phòng 1");
+                cbphong.Items.Add("Phòng 2");
+                cbphong.Items.Add("Phòng 3");
+
+            }
+            else if (phimdachon == "Mai")
+            {
+                cbphong.Items.Add("Phòng 2");
+                cbphong.Items.Add("Phòng 3");
+            }
+            else if (phimdachon == "Gặp lại chị bầu")
+            {
+                cbphong.Items.Add("Phòng 1");
+            }
+            else if (phimdachon == "Tarot")
+            {
+                cbphong.Items.Add("Phòng 3");
+            }
         }
     }
 }
