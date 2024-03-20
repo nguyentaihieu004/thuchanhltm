@@ -24,7 +24,6 @@ namespace baitap
         }
         Dictionary<string, int> dsphim= new Dictionary<string, int>();
        
-        string[] dsdadat;
         string[] sogheedachon;
         string[] soghedachon2=new string [0];
         CheckedListBox.CheckedItemCollection items;
@@ -113,7 +112,8 @@ namespace baitap
 
                 }
                 string vitringoi = string.Join("\n", sogheedachon);
-                MessageBox.Show(string.Format("Khách hàng: {2}\nPhim: {0}\nPhòng: {4}\nVị trí ngồi:{3}\nGiá: {1}", phimdachon, giatienthucte, txbhoten.Text, vitringoi,cbphong.Text));
+                MessageBox.Show(string.Format("Khách hàng: {2}\nPhim: {0}\nPhòng: {4}\nVị trí ngồi:{3}\nGiá: {1}",
+                                            phimdachon, giatienthucte, txbhoten.Text, vitringoi,cbphong.Text));
             }
             
         }

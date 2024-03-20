@@ -163,7 +163,7 @@
             this.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.Name = "Lab1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Lab1";
+            this.Text = "02";
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Lab1_KeyDown);
             this.ResumeLayout(false);
 
