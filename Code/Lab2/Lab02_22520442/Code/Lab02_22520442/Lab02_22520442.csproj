@@ -80,6 +80,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Lab02_bai07.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lab02_bai07.Designer.cs">
+      <DependentUpon>Lab02_bai07.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lab02_bai5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lab02_bai5.Designer.cs">
+      <DependentUpon>Lab02_bai5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lab02_bai6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lab02_bai6.Designer.cs">
+      <DependentUpon>Lab02_bai6.cs</DependentUpon>
+    </Compile>
     <Compile Include="Student.cs" />
     <Compile Include="Lab02_bai4.cs">
       <SubType>Form</SubType>
@@ -113,6 +131,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Lab02_bai07.resx">
+      <DependentUpon>Lab02_bai07.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Lab02_bai1.resx">
       <DependentUpon>Lab02_bai1.cs</DependentUpon>
     </EmbeddedResource>
@@ -127,6 +148,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Lab02_bai4.resx">
       <DependentUpon>Lab02_bai4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lab02_bai5.resx">
+      <DependentUpon>Lab02_bai5.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

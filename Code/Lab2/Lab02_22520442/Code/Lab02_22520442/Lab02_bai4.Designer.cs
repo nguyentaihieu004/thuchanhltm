@@ -353,6 +353,7 @@
             this.button1.TabIndex = 17;
             this.button1.Text = "Button to read a file";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Back
             // 
@@ -362,6 +363,7 @@
             this.Back.TabIndex = 32;
             this.Back.Text = "Back";
             this.Back.UseVisualStyleBackColor = true;
+            this.Back.Click += new System.EventHandler(this.Back_Click);
             // 
             // Next
             // 
@@ -371,6 +373,7 @@
             this.Next.TabIndex = 33;
             this.Next.Text = "Next";
             this.Next.UseVisualStyleBackColor = true;
+            this.Next.Click += new System.EventHandler(this.Next_Click);
             // 
             // label15
             // 

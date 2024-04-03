@@ -40,5 +40,23 @@ namespace Lab02_22520442
             Lab02_bai4 bai4 = new Lab02_bai4();
             bai4.Show();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Lab02_bai5 bai5 = new Lab02_bai5();
+            bai5.Show();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Lab02_bai6 bai6 = new Lab02_bai6();
+            bai6.Show();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            Lab02_bai07 bai7 = new Lab02_bai07();
+            bai7.Show();
+        }
     }
 }
