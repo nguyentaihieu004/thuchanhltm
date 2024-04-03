@@ -37,22 +37,25 @@
             // 
             this.treeView1.Location = new System.Drawing.Point(13, 13);
             this.treeView1.Name = "treeView1";
-            this.treeView1.Size = new System.Drawing.Size(337, 556);
+            this.treeView1.Size = new System.Drawing.Size(516, 627);
             this.treeView1.TabIndex = 0;
+            this.treeView1.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.treeView1_AfterSelect);
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(375, 13);
+            this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox1.Location = new System.Drawing.Point(561, 13);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(397, 556);
+            this.pictureBox1.Size = new System.Drawing.Size(484, 627);
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // Lab02_bai07
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 597);
+            this.ClientSize = new System.Drawing.Size(1057, 652);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.treeView1);
             this.Name = "Lab02_bai07";

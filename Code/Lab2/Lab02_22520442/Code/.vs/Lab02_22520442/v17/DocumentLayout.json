@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\HK2_2024\\laptrinhmangcanban\\Thuchanh\\Lab_22520442\\Code\\Lab2\\Lab02_22520442\\Code\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E3EB6313-3783-4210-9A0A-29384942AB07}|Lab02_22520442\\Lab02_22520442.csproj|d:\\hk2_2024\\laptrinhmangcanban\\thuchanh\\lab_22520442\\code\\lab2\\lab02_22520442\\code\\lab02_22520442\\lab02_bai07.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E3EB6313-3783-4210-9A0A-29384942AB07}|Lab02_22520442\\Lab02_22520442.csproj|solutionrelative:lab02_22520442\\lab02_bai07.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E3EB6313-3783-4210-9A0A-29384942AB07}|Lab02_22520442\\Lab02_22520442.csproj|d:\\hk2_2024\\laptrinhmangcanban\\thuchanh\\lab_22520442\\code\\lab2\\lab02_22520442\\code\\lab02_22520442\\lab02.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E3EB6313-3783-4210-9A0A-29384942AB07}|Lab02_22520442\\Lab02_22520442.csproj|solutionrelative:lab02_22520442\\lab02.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E3EB6313-3783-4210-9A0A-29384942AB07}|Lab02_22520442\\Lab02_22520442.csproj|d:\\hk2_2024\\laptrinhmangcanban\\thuchanh\\lab_22520442\\code\\lab2\\lab02_22520442\\code\\lab02_22520442\\lab02_bai07.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E3EB6313-3783-4210-9A0A-29384942AB07}|Lab02_22520442\\Lab02_22520442.csproj|solutionrelative:lab02_22520442\\lab02_bai07.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{E3EB6313-3783-4210-9A0A-29384942AB07}|Lab02_22520442\\Lab02_22520442.csproj|D:\\HK2_2024\\laptrinhmangcanban\\Thuchanh\\Lab_22520442\\Code\\Lab2\\Lab02_22520442\\Code\\lab02_22520442\\lab02_bai4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3EB6313-3783-4210-9A0A-29384942AB07}|Lab02_22520442\\Lab02_22520442.csproj|solutionrelative:lab02_22520442\\lab02_bai4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,27 +30,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Lab02_bai07.cs",
-              "DocumentMoniker": "D:\\HK2_2024\\laptrinhmangcanban\\Thuchanh\\Lab_22520442\\Code\\Lab2\\Lab02_22520442\\Code\\Lab02_22520442\\Lab02_bai07.cs",
-              "RelativeDocumentMoniker": "Lab02_22520442\\Lab02_bai07.cs",
-              "ToolTip": "D:\\HK2_2024\\laptrinhmangcanban\\Thuchanh\\Lab_22520442\\Code\\Lab2\\Lab02_22520442\\Code\\Lab02_22520442\\Lab02_bai07.cs",
-              "RelativeToolTip": "Lab02_22520442\\Lab02_bai07.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAkwCsAAAAoAAAA",
+              "DocumentIndex": 1,
+              "Title": "Lab02_bai4.cs",
+              "DocumentMoniker": "D:\\HK2_2024\\laptrinhmangcanban\\Thuchanh\\Lab_22520442\\Code\\Lab2\\Lab02_22520442\\Code\\Lab02_22520442\\Lab02_bai4.cs",
+              "RelativeDocumentMoniker": "Lab02_22520442\\Lab02_bai4.cs",
+              "ToolTip": "D:\\HK2_2024\\laptrinhmangcanban\\Thuchanh\\Lab_22520442\\Code\\Lab2\\Lab02_22520442\\Code\\Lab02_22520442\\Lab02_bai4.cs",
+              "RelativeToolTip": "Lab02_22520442\\Lab02_bai4.cs",
+              "ViewState": "AQIAAKAAAAAAAAAAAAAUwLkAAAA+AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-03T09:12:07.615Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-03T13:12:51.231Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Lab02_bai07.cs [Design]",
-              "DocumentMoniker": "D:\\HK2_2024\\laptrinhmangcanban\\Thuchanh\\Lab_22520442\\Code\\Lab2\\Lab02_22520442\\Code\\Lab02_22520442\\Lab02_bai07.cs",
-              "RelativeDocumentMoniker": "Lab02_22520442\\Lab02_bai07.cs",
-              "ToolTip": "D:\\HK2_2024\\laptrinhmangcanban\\Thuchanh\\Lab_22520442\\Code\\Lab2\\Lab02_22520442\\Code\\Lab02_22520442\\Lab02_bai07.cs [Design]",
-              "RelativeToolTip": "Lab02_22520442\\Lab02_bai07.cs [Design]",
+              "DocumentIndex": 0,
+              "Title": "Lab02.cs [Design]",
+              "DocumentMoniker": "D:\\HK2_2024\\laptrinhmangcanban\\Thuchanh\\Lab_22520442\\Code\\Lab2\\Lab02_22520442\\Code\\Lab02_22520442\\Lab02.cs",
+              "RelativeDocumentMoniker": "Lab02_22520442\\Lab02.cs",
+              "ToolTip": "D:\\HK2_2024\\laptrinhmangcanban\\Thuchanh\\Lab_22520442\\Code\\Lab2\\Lab02_22520442\\Code\\Lab02_22520442\\Lab02.cs [Design]",
+              "RelativeToolTip": "Lab02_22520442\\Lab02.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-03T08:33:21.682Z",
+              "WhenOpened": "2024-04-03T13:11:05.515Z",
               "EditorCaption": " [Design]"
             }
           ]
